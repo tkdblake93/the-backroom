@@ -1,1 +1,1 @@
-This page is hosted on [Netlify](https://blakes-backroom.netlify.app/).
+This page is hosted on [Netlify](https://blakes-backroom.netlify.app/). I used ChatGPT to create blurbs for the Gimlet, Manhattan, Margarita, Negroni 1, Negroni 2, and Strawberry Margarita drinks. I used Leonardo AI to generate the image for Negroni 2.
