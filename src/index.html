@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8c827350c2.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black text-white font-body">
+  <nav class="p-4 sticky top-0">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="border-t-2 border-b-2 border-yellow-600 p-2 font-heading text-sm bg-black">
+        THE BACKROOM
+      </a>
+      <div class="block bg-black sm:hidden text-4xl">
+        <span id="open-mobile-menu"><i class="fa-solid fa-bars"></i></span>
+        <span id="close-mobile-menu" class="hidden"><i class="fa-solid fa-x"></i></span>
+      </div>
+      <ul class="sm:flex gap-8 hidden bg-black">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#deals" class="hover:underline">Deals</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+    <div class="text-center bg-black sm:hidden">
+      <ul id="mobile-menu" class="flex-col gap-8 hidden text-2xl">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#deals" class="hover:underline">Deals</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header id="home" class="flex flex-col items-center justify-center min-h-[calc(100vh-72px)] bg-no-repeat bg-cover bg-center bg-yellow-950 bg-blend-overlay]" style="background-image: url('./assets/bg.png');">
+    <h1 class="border-t-4 border-b-4 border-yellow-600 p-5 font-heading text-5xl sm:text-7xl md:text-8xl">
+      THE BACKROOM
+    </h1>
+    <h2 class="font-subheading text-4xl mt-6">Behind Closed Doors, Cocktails Await</h2>
+    <button class="uppercase bg-black py-3 px-4 border-2 border-yellow-950 mt-6 tracking-wider hover:bg-yellow-950">
+      View our menu
+    </button>
+  </header>
+  <div class="bg-gradient-to-br from-black via-slate-950 to-red-950 py-10 px-5">
+    <div class="container mx-auto flex flex-col-reverse md:flex-row gap-4 items-center">
+      <div>
+        <img src="./assets/negroni_2.png" class="size-full rounded-xl md:min-w-[400px]">
+      </div>
+      <div class="text-center py-4" id="deals">
+        <h1 class="font-heading uppercase text-5xl">two for tuesday</h1>
+        <h2 class="font-subheading text-3xl">Buy one get one free, every Tuesday</h2>
+        <p class="text-xl font-light text-yellow-50 pt-14">
+          Why settle for one when you can have two? Join us for an unforgettable evening where luxury meets the craft of cocktail making. Each drink is a masterpiece, created with premium spirits, fresh ingredients, and the imagination of our master mixologists. It's not just a drink; it's an experience.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 py-10 px-5 gap-10 lg:gap-20">
+    <!-- START COCKTAIL ITEM 1 -->
+    <div class="flex gap-4 flex-col-reverse sm:flex-row items-center">
+      <div>
+        <img src="./assets/cosmopolitan.png" class="size-full min-w-60">
+      </div>
+      <div>
+        <h1 class="font-heading text-3xl">Cosmopolitan</h1>
+        <h2 class="font-subheading text-2xl">Sip on sophistication</h2>
+        <p class="text-yellow-50">
+          Sip on sophistication with our iconic Cosmopolitan. A blend of crisp vodka, zesty lime, and sweet cranberry, balanced with a hint of triple sec, creates this timeless pink-hued masterpiece. Served in a chilled martini glass and garnished to perfection, it's the ultimate cocktail for any occasion.
+        </p>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 1 -->
+    <!-- START COCKTAIL ITEM 2 -->
+    <div class="flex gap-4 flex-col sm:flex-row items-center">
+      <div class="sm:text-right">
+        <h1 class="font-heading text-3xl">Daiquiri</h1>
+        <h2 class="font-subheading text-2xl">Indulge in the classic</h2>
+        <p class="text-yellow-50">
+          Indulge in the classic Daiquiri, a cocktail where simplicity meets elegance. Crafted with the perfect balance of white rum, fresh lime juice, and a whisper of sugar, this drink is a testament to timeless taste. Served shaken and strained into a chilled glass, its crisp, refreshing flavor dances on the palate, offering a burst of citrus with a sweet, smooth finish.
+        </p>
+        </div>
+        <div>
+          <img src="./assets/daiquiri.png" class="size-full min-w-60">
+        </div>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 2 -->
+  </div>
+  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 py-10 px-5 gap-10 lg:gap-20">
+    <!-- START COCKTAIL ITEM 3 -->
+    <div class="flex gap-4 flex-col-reverse sm:flex-row items-center">
+      <div>
+        <img src="./assets/gimlet.png" class="size-full min-w-60">
+      </div>
+      <div>
+        <h1 class="font-heading text-3xl">Gimlet</h1>
+        <h2 class="font-subheading text-2xl">Experience the timeless elegance</h2>
+        <p class="text-yellow-50">
+          Experience the timeless elegance of the Gimlet, a cocktail that perfectly balances the tangy zest of fresh lime with the smooth sophistication of premium gin. First crafted in the early 20th century, the Gimlet has become a symbol of refined simplicity, offering a refreshing taste that is both invigorating and classic.
+        </p>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 3 -->
+    <!-- START COCKTAIL ITEM 4 -->
+    <div class="flex gap-4 flex-col sm:flex-row items-center">
+      <div class="sm:text-right">
+        <h1 class="font-heading text-3xl">Manhattan</h1>
+        <h2 class="font-subheading text-2xl">Indulge in the rich</h2>
+        <p class="text-yellow-50">
+          Indulge in the rich, sophisticated allure of the Manhattan, a cocktail that epitomizes classic elegance and timeless appeal. Crafted with a perfect blend of premium whiskey, sweet vermouth, and a dash of aromatic bitters, the Manhattan offers a harmonious symphony of flavors that dance on the palate. Garnished with a maraschino cherry, this iconic drink is the perfect choice for those who appreciate the finer things in life.
+        </p>
+        </div>
+        <div>
+          <img src="./assets/manhattan.png" class="size-full min-w-60">
+        </div>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 4 -->
+  </div>
+  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 py-10 px-5 gap-10 lg:gap-20">
+    <!-- START COCKTAIL ITEM 5 -->
+    <div class="flex gap-4 flex-col-reverse sm:flex-row items-center">
+      <div>
+        <img src="./assets/margharita.png" class="size-full min-w-60">
+      </div>
+      <div>
+        <h1 class="font-heading text-3xl">Margarita</h1>
+        <h2 class="font-subheading text-2xl">Dive into the vibrant</h2>
+        <p class="text-yellow-50">
+          Dive into the vibrant, refreshing world of the Margarita, a cocktail that brings a burst of sunshine to any occasion. Featuring a tantalizing blend of premium tequila, freshly squeezed lime juice, and a touch of triple sec, the Margarita strikes the perfect balance between tangy and sweet. Served in a salt-rimmed glass and garnished with a lime wedge, this iconic drink is a celebration of bold flavors and festive spirit.
+        </p>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 5 -->
+    <!-- START COCKTAIL ITEM 6 -->
+    <div class="flex gap-4 flex-col sm:flex-row items-center">
+      <div class="sm:text-right">
+        <h1 class="font-heading text-3xl">Negroni 1</h1>
+        <h2 class="font-subheading text-2xl">Discover the bold sophistication</h2>
+        <p class="text-yellow-50">
+          Discover the bold sophistication of the Negroni, a cocktail that exudes timeless elegance and a perfect balance of flavors. Crafted with equal parts gin, Campari, and sweet vermouth, the Negroni offers a rich, bittersweet taste that is both complex and captivating. Garnished with a twist of orange peel, this iconic Italian aperitif is a favorite among cocktail enthusiasts for its distinctive character and refined simplicity.
+        </p>
+        </div>
+        <div>
+          <img src="./assets/negroni_1.png" class="size-full min-w-60">
+        </div>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 6 -->
+  </div>
+  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 py-10 px-5 gap-10 lg:gap-20">
+    <!-- START COCKTAIL ITEM 7 -->
+    <div class="flex gap-4 flex-col-reverse sm:flex-row items-center">
+      <div>
+        <img src="./assets/negroni_2_leonardo.jpg" class="size-full min-w-60">
+      </div>
+      <div>
+        <h1 class="font-heading text-3xl">Negroni 2</h1>
+        <h2 class="font-subheading text-2xl">Step into a world</h2>
+        <p class="text-yellow-50">
+          Step into a world of classic sophistication with the Negroni, a cocktail renowned for its impeccable balance and rich, complex flavors. This iconic drink combines the robust botanicals of gin, the bittersweet allure of Campari, and the smooth depth of sweet vermouth. Finished with a twist of fresh orange peel, the Negroni offers a sensory journey that is both invigorating and satisfying.
+        </p>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 7 -->
+    <!-- START COCKTAIL ITEM 8 -->
+    <div class="flex gap-4 flex-col sm:flex-row items-center">
+      <div class="sm:text-right">
+        <h1 class="font-heading text-3xl">Strawberry Margarita</h1>
+        <h2 class="font-subheading text-2xl">Elevate your cocktail experience</h2>
+        <p class="text-yellow-50">
+          Elevate your cocktail experience with the delightful Strawberry Margarita, a refreshing twist on a classic favorite. This vibrant cocktail blends the juicy sweetness of ripe strawberries with premium tequila, freshly squeezed lime juice, and a hint of triple sec. Served in a salt-rimmed glass and garnished with a fresh strawberry, the Strawberry Margarita is the perfect balance of tangy and sweet.
+        </p>
+        </div>
+        <div>
+          <img src="./assets/strawberry_margharita.png" class="size-full min-w-60">
+        </div>
+      </div>
+    </div>
+    <!-- END COCKTAIL ITEM 8 -->
+  </div>
+  <footer class="p-20 border-t border-yellow-950" id="contact">
+    <ul class="flex justify-center gap-20 text-4xl">
+      <li>
+        <a href="https://youtube.com" target="_blank" class="hover:text-red-600">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://facebook.com" target="_blank" class="hover:text-blue-600">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" class="hover:text-pink-600">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
