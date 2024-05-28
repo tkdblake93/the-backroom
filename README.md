@@ -1,1 +1,1 @@
-This page is hosted on [Vercel](https://blakes-backroom.netlify.app/).
+This page is hosted on [Netlify](https://blakes-backroom.netlify.app/).
