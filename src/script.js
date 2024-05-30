@@ -1,7 +1,7 @@
 window.onload = function() {
-  openMobileMenu = document.body.querySelector('#open-mobile-menu');
-  closeMobileMenu = document.body.querySelector('#close-mobile-menu');
-  mobileMenu = document.body.querySelector('#mobile-menu');
+  let openMobileMenu = document.body.querySelector('#open-mobile-menu');
+  let closeMobileMenu = document.body.querySelector('#close-mobile-menu');
+  let mobileMenu = document.body.querySelector('#mobile-menu');
 
   function open() {
     openMobileMenu?.classList.add('hidden');
